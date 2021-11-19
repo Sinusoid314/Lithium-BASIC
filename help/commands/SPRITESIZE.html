@@ -1,0 +1,66 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SPRITESIZE winName, spriteName, width, height</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the <b>width</b> and <b>height</b> of the sprite specified by <b>spriteName</b> on
+the window or control <b>winName</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "img1", DefPath & "\examples\sprite1-1.bmp" <br>
+loadimg "img2", DefPath & "\examples\sprite1-2.bmp" <br>
+<br>
+window "win", "Sprite Test", normal, 100, 100, 500, 500 <br>
+control "draw1", "win", "", drawbox, 10, 10, 400, 300 <br>
+control "txtWidth", "win", "100", textbox, 160, 350, 100, 20 <br>
+control "txtHeight", "win", "30", textbox, 160, 380, 100, 20 <br>
+control "btnSize", "win", "Resize", button, 280, 365, 100, 25 <br>
+<br>
+event "win", "close", Close <br>
+event "btnSize", "click", ResizeSprite <br>
+<br>
+sprite "draw1", "sprite1", 10, 10, "img1" <br>
+addframe "draw1", "sprite1", "img2" <br>
+<br>
+timer "timer1", 100, RedrawSprites <br>
+<br>
+pause <br>
+<br>
+sub RedrawSprites <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+drawsprites "draw1" <br>
+end sub <br>
+<br>
+sub ResizeSprite <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var w, h as number<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+w = val(gettext("txtWidth")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+h = val(gettext("txtHeight")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SpriteSize "draw1", "sprite1", w, h</b> <br>
+end sub <br>
+<br>
+sub Close <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img2" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+end <br>
+end sub <br>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>TIMER name, interval, subName</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Creates a timer that is identified by <b>name</b>. The timer will execute the code
+within the sub or function specified by <b>subName</b> at intervals specified by
+<b>interval</b>. The inverval of a timer is measured in milliseconds: 1000 milliseconds
+is a second, 500 is half a second, etc. The timer can be stoped by calling the
+<a href="STOPTIMER.html">STOPTIMER</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+var hour, min, sec as number <br>
+<br>
+<b>Timer "hourCount", 12000000, HourCount</b> <br>
+<b>Timer "minCount", 60000, MinCount</b> <br>
+<b>Timer "secCount", 1000, SecCount</b> <br>
+<br>
+pause <br>
+<br>
+sub HourCount <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+hour = hour + 1 <br>
+end sub <br>
+<br>
+sub MinCount <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+min = min + 1 <br>
+end sub <br>
+<br>
+sub SecCount <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+sec = sec + 1 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+call UpdateDisp <br>
+end sub <br>
+<br>
+sub UpdateDisp <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+if min = 60 then min = 0 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+if sec = 60 then sec = 0 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+cls <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+print hour & ":" & min & ":" & sec <br>
+end sub <br>
+
+</body>
+</html>

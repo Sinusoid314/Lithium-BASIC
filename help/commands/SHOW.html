@@ -1,0 +1,51 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SHOW name</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Shows the window or control specified by <b>name</b> that has been hidden
+using the <a href="HIDE.html">HIDE</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win2", "Test Window", normal, 100, 100, 400, 300 <br>
+<br>
+window "win1", "Show/Hide Window", normal, 10, 10, 300, 80<br>
+control "showBtn", "win1", "Show", button, 10, 10, 100, 25 <br>
+control "hideBtn", "win1", "Hide", button, 130, 10, 100, 25 <br>
+<br>
+event "win1", "close", EndProg <br>
+event "showBtn", "click", ShowWin <br>
+event "hideBtn", "click", HideWin <br>
+<br>
+pause <br>
+<br>
+sub ShowWin <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Show "win2"</b> <br>
+end sub <br>
+<br>
+sub HideWin <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+hide "win2" <br>
+end sub <br>
+<br>
+sub EndProg <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+closewindow "win1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+closewindow "win2" <br>
+end sub <br>
+
+</body>
+</html>

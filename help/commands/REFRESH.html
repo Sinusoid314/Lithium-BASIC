@@ -1,0 +1,42 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>REFRESH name</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Refreshes the display of the window or control specified by <b>name</b>. Any graphics
+that were not stuck to the window using the <a href="STICK.html">STICK</a> command
+will be erased from the window when it is refreshed.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "img1", DefPath & "\examples\image1.bmp" <br>
+<br>
+window "win", "Refresh Test", normal, 100, 100, 500, 400 <br>
+control "draw1", "win", "", drawbox, 10, 10, 100, 100 <br>
+control "btn1", "win", "Refresh", button, 100, 300, 100, 25 <br>
+<br>
+drawimg "draw1", "img1", 10, 10 <br>
+stick "draw1" <br>
+drawimg "draw1", "img1", 40, 40 <br>
+<br>
+event "btn1", "click", RefreshWin <br>
+<br>
+pause <br>
+<br>
+sub RefreshWin <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Refresh "draw1"</b> <br>
+end sub <br>
+
+</body>
+</html>

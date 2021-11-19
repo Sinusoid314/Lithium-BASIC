@@ -1,0 +1,39 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SETPIXEL name, x, y, color</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Changes the color of the pixel at position <b>x</b>, <b>y</b> on the window or
+to control <b>name</b> to the color specified by <b>color</b>. There are system 
+variables available that contain the number values for the basic colors. 
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var a, b as number <br>
+<br>
+window "win", "SetPixel Test", normal, 100, 100, 400, 400 <br>
+<br>
+for a = 100 to 150 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+for b = 100 to 150 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetPixel "win", a, b, Blue</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+next b <br>
+next a <br>
+<br>
+pause <br>
+
+</body>
+</html>

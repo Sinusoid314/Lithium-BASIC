@@ -1,0 +1,33 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SETFONT winName, fontName, fontSize</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the font of any text drawn on the window or control specified by <b>winName</b>.
+If <b>fontName</b> does not match any of the installed fonts, the closest font will
+be chosen. <b>fontSize</b> specifies both the width and height of each character drawn
+with the font.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Font Test", normal, 100, 100, 500, 400 <br>
+<br>
+<b>SetFont "win", "times_new_roman", 20</b> <br>
+drawtext "win", "ALL YOUR BASE ARE BELONG TO US", 10, 10 <br>
+<b>SetFont "win", "westminster", 50</b> <br>
+drawtext "win", "SOMEBODY SET UP US THE BOMB", 10, 100 <br>
+<br>
+pause <br>
+
+</body>
+</html>

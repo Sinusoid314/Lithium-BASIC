@@ -1,0 +1,33 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>RUNCMD cmdString</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Executes a Lithium BASIC command as a string expression. This allows a command to
+be constructed and changed durring runtime. <i>Note of caution:</i> Since the commands
+are executed as string expressions durring runtime, the compiler does not check them
+for correct syntax or matching data types. This could cause problems durring execution
+of the program if the command string has syntax errors in it, and could potentially
+crash the program or even the entire system.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+var cmdStr as string <br>
+<br>
+input "Enter a command: ", cmdStr <br>
+<br>
+<b>RunCmd cmdStr</b> <br>
+
+</body>
+</html>

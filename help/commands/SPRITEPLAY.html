@@ -1,0 +1,66 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SPRITEPLAY winName, spriteName</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Causes the sprite <b>spriteName</b> on the window or control <b>winName</b> to resume
+cycling of its image frames. The sprite's animation can be paused by using the
+<a href="SPRITEPAUSE.html">SPRITEPAUSE</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "img1", DefPath & "\examples\sprite1-1.bmp" <br>
+loadimg "img2", DefPath & "\examples\sprite1-2.bmp" <br>
+<br>
+window "win", "Sprite Test", normal, 100, 100, 500, 400 <br>
+control "draw1", "win", "", drawbox, 10, 10, 140, 100 <br>
+control "btnPlay", "win", "Play", button, 160, 10, 100, 25 <br>
+control "btnPause", "win", "Pause", button, 160, 40, 100, 25 <br>
+<br>
+event "win", "close", Close <br>
+event "btnPause", "click", PauseSprite <br>
+event "btnPlay", "click", PlaySprite <br>
+<br>
+sprite "draw1", "sprite1", 10, 10, "img1" <br>
+addframe "draw1", "sprite1", "img2" <br>
+<br>
+timer "timer1", 100, RedrawSprites <br>
+<br>
+pause <br>
+<br>
+sub RedrawSprites <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+drawsprites "draw1" <br>
+end sub <br>
+<br>
+sub PauseSprite <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+spritepause "draw1", "sprite1" <br>
+end sub <br>
+<br>
+sub PlaySprite <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SpritePlay "draw1", "sprite1"</b> <br>
+end sub <br>
+<br>
+sub Close <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img2" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+end <br>
+end sub <br>
+
+</body>
+</html>

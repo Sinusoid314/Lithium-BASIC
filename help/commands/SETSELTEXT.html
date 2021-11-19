@@ -1,0 +1,36 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SETSELTEXT name, text</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Replaces the currently selected text with <b>text</b> in the <b>textbox</b> or
+<b>texteditor</b> contorl specified by <b>name</b>. If there is no text selected, then
+<b>text</b> will be inserted at the text cursor's position.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Replace Text", normal, 100, 100, 400, 400 <br>
+control "text1", "win", "", texteditor, 100, 50, 200, 150 <br>
+control "btn1", "win", "Replace", button, 100, 250, 100, 25 <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetSelText "text1", "****"</b> <br>
+end sub <br>
+
+</body>
+</html>

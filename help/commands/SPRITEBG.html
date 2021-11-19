@@ -1,0 +1,55 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SPRITEBG winName, imgName</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the image, specified by <b>imgName</b>, that will be drawn behind the sprites on the
+window or control specified by <b>winName</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "img1", DefPath & "\examples\sprite1-1.bmp" <br>
+loadimg "img2", DefPath & "\examples\sprite1-2.bmp" <br>
+loadimg "img3", DefPath & "\examples\bgPic.bmp" <br>
+<br>
+window "win", "Sprite Background Test", normal, 100, 100, 600, 400 <br>
+<br>
+event "win", "close", Close <br>
+<br>
+sprite "win", "sprite1", 10, 10, "img1" <br>
+addframe "win", "sprite1", "img2" <br>
+<br>
+<b>SpriteBG "win", "img3"</b> <br>
+<br>
+timer "timer1", 100, RedrawSprites <br>
+<br>
+pause <br>
+<br>
+sub RedrawSprites <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+drawsprites "win" <br>
+end sub <br>
+<br>
+sub Close <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img2" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img3" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+end <br>
+end sub <br>
+
+</body>
+</html>

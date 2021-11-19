@@ -1,0 +1,48 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SETSTATE name, state</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the <b>state</b> of the <b>radiobutton</b> or <b>checkbox</b> specified by
+<b>name</b>. The <b>state</b> is a number that specifies whether the control is
+checked (<b>True</b> or 1) or unchecked (<b>False</b> or 0).
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "SetState Test", normal, 100, 100, 500, 400 <br>
+control "rbtn", "win", "Radio Button", radiobutton, 150, 50, 110, 20 <br>
+control "cbox", "win", "Check Box", checkbox, 150, 90, 100, 20 <br>
+control "btn1", "win", "Check", button, 150, 200, 150, 25 <br>
+control "btn2", "win", "Uncheck", button, 150, 230, 150, 25 <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+event "btn2", "click", Btn2Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetState "rbtn", True</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetState "cbox", True</b> <br>
+end sub <br>
+<br>
+sub Btn2Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetState "rbtn", False</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetState "cbox", False</b> <br>
+end sub <br>
+
+</body>
+</html>

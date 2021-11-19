@@ -1,0 +1,42 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SHOWCONSOL</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Displays the consol window. The consol window is initially hidden when a program
+starts. Use the <a href="HIDECONSOL.html">HIDECONSOL</a> command to hide it.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Using the Consol", normal, 100, 100, 400, 300 <br>
+control "btn1", "win", "Consol", button, 100, 100, 100, 25 <br>
+<br>
+event "btn1", "click", UseConsol <br>
+<br>
+pause <br>
+<br>
+sub UseConsol <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var cap as string <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>ShowConsol</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+input "Enter new caption: ", cap <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+settext "btn1", cap <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+hideconsol <br>
+end sub <br>
+
+</body>
+</html>

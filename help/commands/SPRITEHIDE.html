@@ -1,0 +1,65 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SPRITEHIDE winName, spriteName</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Hides the sprite specified by <b>spriteName</b> on the window or control <b>winName</b>.
+The sprite can be shown by using the <a href="SPRITESHOW.html">SPRITESHOW</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "img1", DefPath & "\examples\sprite1-1.bmp" <br>
+loadimg "img2", DefPath & "\examples\sprite1-2.bmp" <br>
+<br>
+window "win", "Sprite Test", normal, 100, 100, 500, 400 <br>
+control "draw1", "win", "", drawbox, 10, 10, 140, 100 <br>
+control "btnShow", "win", "Show", button, 160, 10, 100, 25 <br>
+control "btnHide", "win", "Hide", button, 160, 40, 100, 25 <br>
+<br>
+event "win", "close", Close <br>
+event "btnShow", "click", ShowSprite <br>
+event "btnHide", "click", HideSprite <br>
+<br>
+sprite "draw1", "sprite1", 10, 10, "img1" <br>
+addframe "draw1", "sprite1", "img2" <br>
+<br>
+timer "timer1", 100, RedrawSprites <br>
+<br>
+pause <br>
+<br>
+sub RedrawSprites <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+drawsprites "draw1" <br>
+end sub <br>
+<br>
+sub ShowSprite <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+spriteshow "draw1", "sprite1" <br>
+end sub <br>
+<br>
+sub HideSprite <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SpriteHide "draw1", "sprite1"</b> <br>
+end sub <br>
+<br>
+sub Close <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img2" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+end <br>
+end sub <br>
+
+</body>
+</html>

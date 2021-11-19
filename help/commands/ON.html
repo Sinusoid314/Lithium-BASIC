@@ -1,0 +1,46 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>ON value GOTO/GOSUB @label1, @label2, ...</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Jumps to a certain branch label based on <b>value</b>. If <b>value</b> 1, for
+example, then the code will jump to <b>@label1</b>. If it is 2, then the second
+branch label will be jumped to, and so on. If <b>value</b> is greater than or
+less than the number of branch labels given, the command will just be skipped.
+Specify either <a href="GOTO.html">GOTO</a> or <a href="GOSUB.html">GOSUB</a>
+depending on whether you want to return from the jump or not.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+var labelNum as number <br>
+<br>
+input "Please choose a branch label: ", labelNum <br>
+<b>On labelNum GoSub @one, @two, @three</b> <br>
+print "Return" <br>
+end <br>
+ <br>
+@one <br>
+  print "Label One" <br>
+return <br>
+<br>
+@two <br>
+  print "Label Two" <br>
+return <br>
+<br>
+@three <br>
+  print "Label Three" <br>
+return <br>
+
+</body>
+</html>

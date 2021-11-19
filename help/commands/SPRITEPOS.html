@@ -1,0 +1,66 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SPRITEPOS winName, spriteName, x, y</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the <b>x</b> and <b>y</b> position of the sprite specified by <b>spriteName</b> on
+the window or control <b>winName</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "img1", DefPath & "\examples\sprite1-1.bmp" <br>
+loadimg "img2", DefPath & "\examples\sprite1-2.bmp" <br>
+<br>
+window "win", "Sprite Test", normal, 100, 100, 500, 500 <br>
+control "draw1", "win", "", drawbox, 10, 10, 400, 300 <br>
+control "txtLeft", "win", "10", textbox, 160, 350, 100, 20 <br>
+control "txtTop", "win", "10", textbox, 160, 380, 100, 20 <br>
+control "btnMove", "win", "Move", button, 280, 365, 100, 25 <br>
+<br>
+event "win", "close", Close <br>
+event "btnMove", "click", MoveSprite <br>
+<br>
+sprite "draw1", "sprite1", 10, 10, "img1" <br>
+addframe "draw1", "sprite1", "img2" <br>
+<br>
+timer "timer1", 100, RedrawSprites <br>
+<br>
+pause <br>
+<br>
+sub RedrawSprites <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+drawsprites "draw1" <br>
+end sub <br>
+<br>
+sub MoveSprite <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var x, y as number<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+x = val(gettext("txtLeft")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+y = val(gettext("txtTop")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SpritePos "draw1", "sprite1", x, y</b> <br>
+end sub <br>
+<br>
+sub Close <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img2" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+end <br>
+end sub <br>
+
+</body>
+</html>

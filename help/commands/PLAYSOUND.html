@@ -1,0 +1,38 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>PLAYSOUND name</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Starts or continues play of the sound specified by <b>name</b>. The sound must have
+already been loaded using the <a href="OPENSOUND.html">OPENSOUND</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+var n as number <br>
+<br>
+opensound "song", DefPath & "\examples\the guess who - no time.mid" <br>
+print "(2)Play (1)Pause (0)Quit" <br>
+<br>
+@choose <br>
+input ">> ", n <br>
+if n = 2 then <b>PlaySound "song"</b> <br>
+if n = 1 then pausesound "song" <br>
+if n = 0 then goto @done <br>
+goto @choose <br>
+<br>
+@done <br>
+closesound "song" <br>
+
+</body>
+</html>

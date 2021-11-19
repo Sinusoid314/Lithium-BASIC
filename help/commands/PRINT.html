@@ -1,0 +1,30 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>PRINT [#handle,] [expression]</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Prints data to the consol window or a file. If <b>#handle</b> is specified, then expression is evaluated and written to the file, and must also be specified. If only <b>expression</b> is specified, then that expression will be evaluated and printed onto the consol window. If neither are specified, then a blank line is printed to the consol window. Placing a <b>;</b>
+at the end of the entire PRINT statement will keep it from printing a carriage return to the consol
+window or file.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+<b>Print "Hello, world!"</b> <br>
+<b>Print</b> <br>
+open "file.txt" for output as #file <br>
+<b>Print #file, "stuff"</b> <br>
+close #file <br>
+
+</body>
+</html>

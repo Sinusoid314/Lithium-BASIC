@@ -1,0 +1,37 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SETTEXT name, text</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the <b>text</b> of the window or control specified by <b>name</b>
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "SetText Test", normal, 100, 100, 500, 400 <br>
+control "btn1", "win", "Set Text", button, 100, 100, 150, 25 <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var newText as string <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+newText = inputbox("Enter new window text:", "Set Text") <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetText "win", newText</b> <br>
+end sub <br>
+
+</body>
+</html>

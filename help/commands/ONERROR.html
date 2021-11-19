@@ -1,0 +1,41 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>ONERROR command</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Executes a Lithium BASIC command, specified by <b>command</b>, whenever a runtime
+error occurs. This allows the program to continue executing without an error message
+being displayed.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+array arrVals(3) as string <br>
+var inVal as string <br>
+var n as number <br>
+<br>
+<b>OnError GOTO @err</b> <br>
+<br>
+@enterVal <br>
+input "Enter an item index: ", n <br>
+input "Enter the item's value: ", inVal <br>
+arrVals(n) = inVal <br>
+goto @enterVal <br>
+<br>
+@err <br>
+print "Index out of bounds" <br>
+end <br>
+
+
+</body>
+</html>

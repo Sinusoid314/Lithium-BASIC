@@ -1,0 +1,45 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>
+WHILE expression <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+{code} <br>
+WEND
+</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Allows a program to execute some code a certain amount of times. If <b>expression</b>
+is true, the <b>{code}</b> is executed, and will continue to loop around and execute 
+until <b>expression</b> becomes false. <i>Note of caution:</i> Be careful when using this
+and the <a href="FOR...NEXT.html">FOR...NEXT</a> loop, as it could go into an infinate
+loop if <b>expression</b> never becomes false.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+var num as number <br>
+<b>While num < 100</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+num = num + 5 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+print num <br>
+<b>Wend</b> <br>
+<br>
+<u>Produces:</u> <br>
+<b>
+5<br> 10<br> 15<br> 20<br> 25<br> 30<br> 35<br> 40<br> 45<br> 50<br>
+55<br> 60<br> 65<br> 70<br> 75<br> 80<br> 85<br> 90<br> 95<br> 100<br>
+</b>
+
+</body>
+</html>

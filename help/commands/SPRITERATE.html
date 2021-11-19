@@ -1,0 +1,64 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SPRITERATE winName, spriteName, rate</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the animation <b>rate</b> of the sprite <b>spriteName</b> on the window or control
+<b>winName</b>. The higher the rate number is, the slower the sprite's frame cycle will
+be. For example, a rate of 50 will speed up the sprite's animation, and a rate of 500 will
+slow it down.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "img1", DefPath & "\examples\sprite1-1.bmp" <br>
+loadimg "img2", DefPath & "\examples\sprite1-2.bmp" <br>
+<br>
+window "win", "Sprite Test", normal, 100, 100, 500, 500 <br>
+control "draw1", "win", "", drawbox, 10, 10, 400, 300 <br>
+control "btnRate", "win", "Set Rate", button, 200, 365, 100, 25 <br>
+<br>
+event "win", "close", Close <br>
+event "btnRate", "click", SetRate <br>
+<br>
+sprite "draw1", "sprite1", 10, 10, "img1" <br>
+addframe "draw1", "sprite1", "img2" <br>
+<br>
+timer "timer1", 100, RedrawSprites <br>
+<br>
+pause <br>
+<br>
+sub RedrawSprites <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+drawsprites "draw1" <br>
+end sub <br>
+<br>
+sub SetRate <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var rate as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+rate = val(inputbox("Enter sprite rate:", "Rate")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SpriteRate "draw1", "sprite1", rate</b> <br>
+end sub <br>
+<br>
+sub Close <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img2" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+end <br>
+end sub <br>
+
+</body>
+</html>

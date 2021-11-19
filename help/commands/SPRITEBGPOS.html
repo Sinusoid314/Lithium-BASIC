@@ -1,0 +1,72 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SPRITEBGPOS winName, x, y</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the sprite background position to <b>x</b> and <b>y</b> on the window or control
+<b>winName</b>. This is useful for games that need a scrolling background.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var bgX, bgY as number <br>
+<br>
+bgX = 0 <br>
+bgY = 0 <br>
+<br>
+loadimg "img1", DefPath & "\examples\sprite1-1.bmp" <br>
+loadimg "img2", DefPath & "\examples\sprite1-2.bmp" <br>
+loadimg "img3", DefPath & "\examples\bgPic.bmp" <br>
+<br>
+window "win", "Sprite Test", normal, 100, 100, 500, 400 <br>
+control "draw1", "win", "", drawbox, 10, 10, 400, 300 <br>
+<br>
+event "win", "close", Close <br>
+<br>
+sprite "draw1", "sprite1", 150, 100, "img1" <br>
+addframe "draw1", "sprite1", "img2" <br>
+<br>
+spritebg "draw1", "img3" <br>
+<b>SpriteBGPos "draw1", bgX, bgY</b> <br>
+<br>
+timer "timer1", 100, RedrawSprites <br>
+<br>
+pause <br>
+<br>
+sub RedrawSprites <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+drawsprites "draw1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+bgX = bgX + 10<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+bgY = bgY + 5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+if bgX > 1000 then bgX = 0 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+if bgY > 1000 then bgY = 0 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SpriteBGPos "draw1", bgX, bgY</b> <br>
+end sub <br>
+<br>
+sub Close <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img2" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img3" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+end <br>
+end sub <br>
+
+</body>
+</html>

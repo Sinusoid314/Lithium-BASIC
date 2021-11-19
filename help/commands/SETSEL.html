@@ -1,0 +1,36 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SETSEL name, startPos, endPos</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Selects a section of text in the <b>textbox</b> or <b>texteditor</b> control specified
+by <b>name</b>. The values <b>startPos</b> and <b>endPos</b> specify the starting
+and ending positions of the text to select.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Select Text", normal, 100, 100, 400, 400 <br>
+control "text1", "win", "abcdefghi", texteditor, 100, 50, 200, 150 <br>
+control "btn1", "win", "Set Selection", button, 100, 250, 120, 25 <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetSel "text1", 3, 5</b> <br>
+end sub <br>
+
+</body>
+</html>

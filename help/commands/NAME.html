@@ -1,0 +1,35 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>NAME oldName AS newName</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Renames the file specified by <b>oldName</b> to the file name <b>newName</b>. If the
+file paths of each are different, the file <b>oldName</b> will be moved to the location
+of <b>newName</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var newName as string <br>
+showconsol <br>
+<br>
+open "c:\ff.txt" for output as #file <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+print #file, "file data" <br>
+close #file <br>
+<br>
+input "Enter a new file name: ", newName <br>
+<br>
+<b>Name "c:\ff.txt" As "c:\" & newName</b> <br>
+
+</body>
+</html>

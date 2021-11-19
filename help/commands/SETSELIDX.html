@@ -1,0 +1,43 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SETSELIDX name, index</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Selects an item, specified by <b>index</b>, in the <b>listbox</b> or <b>combobox</b>
+specified by <b>name</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Select Item Test", normal, 100, 100, 500, 400 <br>
+control "list1", "win", "", listbox, 100, 20, 100, 200 <br>
+control "btn1", "win", "Select", button, 250, 50, 100, 25 <br>
+<br>
+additem "list1", "Item 1" <br>
+additem "list1", "Item 2" <br>
+additem "list1", "Item 3" <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var idx as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+idx = val(inputbox("Enter the index of an item:", "Select Item")) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetSelIdx "list1", idx</b> <br>
+end sub <br>
+
+</body>
+</html>

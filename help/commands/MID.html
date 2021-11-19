@@ -1,0 +1,37 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>MID stringVar, start [,length], replaceStr</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Replaces a portion of the value of string variable <b>stringVar</b> with the string
+<b>replaceStr</b>, starting at <b>start</b>. If <b>length</b> is specified, then only
+that amount of characters will be replaced in <b>stringVar</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var ss as string <br>
+var n as number <br>
+<br>
+showconsol <br>
+<br>
+input "Enter a string: ", ss <br>
+<br>
+for n = 1 to len(ss) step 2 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Mid ss, n, "*"</b> <br>
+next n <br>
+<br>
+print ss <br>
+
+</body>
+</html>

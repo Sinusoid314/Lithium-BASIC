@@ -1,0 +1,45 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>REDIM arrayName(maxIdx1 [,maxIdx2])</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Changes the dimensions of an array created using the <a href="ARRAY.html">ARRAY</a>
+or <a href="DIM.html">DIM</a> commands. All the items in an array will be deleted
+when it is redimensioned.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var num, x as number <br>
+var tmpName as string <br>
+array nameList(0) as string <br>
+<br>
+input "Enter number of names: ", num <br
+<br>
+<b>ReDim nameList(num)</b> <br>
+<br>
+for x = 1 to num <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+input "Enter name " & x & ": ", tmpName <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+nameList(x) = tmpName <br>
+next x <br>
+<br>
+print <br>
+<br>
+for x = 1 to num <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+print nameList(x) <br>
+next x <br>
+
+</body>
+</html>

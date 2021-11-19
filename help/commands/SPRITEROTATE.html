@@ -1,0 +1,80 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SPRITEROTATE winName, spriteName, rotation</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Rotates the sprite <b>spriteName</b> on the window or control <b>winName</b>. The rotation
+is specified by <b>rotation</b>, which is a string that can hold one of the four rotations
+values: <i>normal</i>, <i>flip</i>, <i>mirror</i>, and <i>rotate180</i>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "img1", DefPath & "\examples\sprite1-1.bmp" <br>
+loadimg "img2", DefPath & "\examples\sprite1-2.bmp" <br>
+<br>
+window "win", "Sprite Test", normal, 100, 100, 500, 500 <br>
+control "draw1", "win", "", drawbox, 10, 10, 400, 300 <br>
+control "btnNormal", "win", "Normal", button, 150, 365, 100, 25 <br>
+control "btnFlip", "win", "Flip", button, 260, 365, 100, 25 <br>
+control "btnMirror", "win", "Mirror", button, 150, 400, 100, 25 <br>
+control "btnRotate", "win", "Rotate180", button, 260, 400, 100, 25 <br>
+<br>
+event "win", "close", Close <br>
+event "btnNormal", "click", Normal <br>
+event "btnFlip", "click",  Flip <br>
+event "btnMirror", "click", Mirror <br>
+event "btnRotate", "click", Rotate180 <br>
+<br>
+sprite "draw1", "sprite1", 100, 100, "img1" <br>
+addframe "draw1", "sprite1", "img2" <br>
+<br>
+timer "timer1", 100, RedrawSprites <br>
+<br>
+pause <br>
+<br>
+sub RedrawSprites <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+drawsprites "draw1" <br>
+end sub <br>
+<br>
+sub Normal <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SpriteRotate "draw1", "sprite1", "normal"</b> <br>
+end sub <br>
+<br>
+sub Flip <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SpriteRotate "draw1", "sprite1", "flip"</b> <br>
+end sub <br>
+<br>
+sub Mirror <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SpriteRotate "draw1", "sprite1", "mirror"</b> <br>
+end sub <br>
+<br>
+sub Rotate180 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SpriteRotate "draw1", "sprite1", "rotate180"</b> <br>
+end sub <br>
+<br>
+sub Close <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+unloadimg "img2" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+end <br>
+end sub <br>
+
+</body>
+</html>

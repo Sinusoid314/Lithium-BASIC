@@ -1,0 +1,38 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>QUESTION message, title, answerVar</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Displays a message box, with the given <b>message</b> and <b>title</b>, that
+gives the user a "Yes" or "No" choice. The choice is placed in <b>answerVal</b>,
+which can either be "yes" or "no".
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Question Test", normal, 100, 100, 500, 400 <br>
+<br>
+event "win", "close", WinClose <br>
+<br>
+pause <br>
+<br>
+sub WinClose <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var aVar as string <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Question "Are you sure you want to quit?", "Closing...", aVar</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+if aVar = "yes" then closewindow "win" <br>
+end sub <br>
+
+</body>
+</html>

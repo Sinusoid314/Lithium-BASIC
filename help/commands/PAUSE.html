@@ -1,0 +1,39 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>PAUSE</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Pauses program execution and waits for window events. This command is necessary
+for programs using GUI windows, otherwise the program will not wait for events
+and would end prematurely.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "GetXY Test", normal, 100, 100, 500, 400 <br>
+control "btn1", "win", "GetXY", button, 200, 175, 100, 25 <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+<b>Pause</b> <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var left, top as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+getxy "win", left, top <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+message "(" & left & ", " & top & ")", "Current Position" <br>
+end sub <br>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SETXY name, x, y</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the <b>x</b> and <b>y</b> position of the window or control specified by <b>name</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "SetXY Test", normal, 100, 100, 500, 400 <br>
+control "btn1", "win", "Set Position", button, 100, 100, 150, 25 <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetXY "win", 0, 0</b> <br>
+end sub <br>
+
+</body>
+</html>

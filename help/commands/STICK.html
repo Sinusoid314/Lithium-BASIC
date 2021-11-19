@@ -1,0 +1,43 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>STICK name</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Causes all the graphics that have been drawn to the window or control specified by
+<b>name</b> to stick. This keeps the graphics from being erased when another window
+overlaps them or the window is refreshed using the <a href="REFRESH.html">REFRESH</a>
+command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "img1", DefPath & "\examples\image1.bmp" <br>
+<br>
+window "win", "Refresh Test", normal, 100, 100, 500, 400 <br>
+control "draw1", "win", "", drawbox, 10, 10, 100, 100 <br>
+control "btn1", "win", "Refresh", button, 100, 300, 100, 25 <br>
+<br>
+drawimg "draw1", "img1", 10, 10 <br>
+<b>Stick "draw1"</b> <br>
+drawimg "draw1", "img1", 40, 40 <br>
+<br>
+event "btn1", "click", RefreshWin <br>
+<br>
+pause <br>
+<br>
+sub RefreshWin <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+refresh "draw1" <br>
+end sub <br>
+
+</body>
+</html>

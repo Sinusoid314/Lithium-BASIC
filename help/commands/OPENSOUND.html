@@ -1,0 +1,36 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>OPENSOUND soundName, fileName</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Opens a sound file, specified by <b>fileName</b>, and assigns it a name
+specified by <b>soundName</b>. Some sound files that can be loaded include
+<b>.wav</b> and <b>.mid</b> files. Once you are done using the sound, it should
+be closed using the <a href="CLOSESOUND.html">CLOSESOUND</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+<br>
+var v as number <br>
+<br>
+<b>OpenSound "midi", DefPath & "\examples\the guess who - no time.mid"</b> <br>
+input "Play>> ", v <br>
+<br>
+playsound "midi" <br>
+input "Stop>> ", v <br>
+<br>
+closesound "midi" <br>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>RESTORE [position]</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Restores the <a href="READ.html">READ</a>ing of data items to the item specified. If
+no item number is specified, the reading is restored to the first data item.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+data 4 <br>
+data "Andrew", "Dan", "Vince", "Trish" <br>
+<br>
+showconsol <br>
+<br>
+var nameNum, n as number <br>
+var nameStr as string <br>
+<br>
+read nameNum <br>
+<br>
+for n = 1 to nameNum <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+read nameStr <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+print nameStr <br>
+next n <br>
+<br>
+input "Choose a name to print: ", n <br>
+<b>Restore n+1</b> <br>
+read nameStr <br>
+print nameStr <br>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>STOPTIMER name</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Stops and destroys the timer specified by <b>name</b>. The timer must have already been
+created using the <a href="TIMER.html">TIMER</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var count as number <br>
+<br>
+window "win", "Timer Test", normal, 100, 100, 500, 400 <br>
+control "countTxt", "win", "0", statictext, 200, 50, 100, 20 <br>
+control "startBtn", "win", "Start Timer", button, 200, 100, 100, 25 <br>
+control "stopBtn", "win", "Stop Timer", button, 200, 200, 100, 25 <br>
+<br>
+disable "startBtn" <br>
+<br>
+timer "counter", 1000, CountSub <br>
+<br>
+event "startBtn", "click", StartCount <br>
+event "stopBtn", "click", StopCount <br>
+<br>
+pause <br>
+<br>
+sub CountSub <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+count = count + 1 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+settext "countTxt", count <br>
+end sub <br>
+<br>
+sub StopCount <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>StopTimer "counter"</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+disable "stopBtn" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+enable "startBtn" <br>
+end sub <br>
+<br>
+sub StartCount <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+timer "counter", 1000, CountSub <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+disable "startBtn" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+enable "stopBtn" <br>
+end sub <br>
+
+</body>
+</html>

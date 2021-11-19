@@ -1,0 +1,47 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>WINDOW name, caption, type, x, y, width, height</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Creates a window labeled <b>name</b>> The window's caption text is specified by
+<b>caption</b>, its position by <b>x</b> and <b>y</b>, and its size by <b>width</b>
+and <b>height</b>. The <b>type</b> parameter is an identifier specifying the window's
+type, and can be any one of the following: <br>
+<br>
+<i>normal</i> - A normal, resizable window with minimize, maximize, and close buttons.
+<br>
+<i>dialog</i> - A non-resizable window with only a close button.
+<br>
+<i>dialog_modal</i> - A dialog window that disables the window below it until it closes.
+<br>
+<i>popup</i> - A non-resizable window with no caption and no border.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+<b>Window "win", "Window Test", normal, 100, 100, 500, 400</b> <br>
+<br>
+event "win", "close", WinClose <br>
+<br>
+pause <br>
+<br>
+sub WinClose <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var a as string <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+question "Are you sure you want to quit?", "Window Test", a <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+if a = "yes" then closewindow "win" <br>
+end sub <br>
+
+</body>
+</html>

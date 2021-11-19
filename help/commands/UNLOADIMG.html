@@ -1,0 +1,36 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>UNLOADIMG name</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Unloads an image that was loaded using the <a href="LOADIMG.html">LOADIMG</a>
+command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "img1", DefPath & "\examples\image1.bmp" <br>
+<br>
+window "win", "Image Test", normal, 100, 100, 400, 300 <br>
+<br>
+event "win", "close", WinClose <br>
+drawimg "win", "img1", 100, 100 <br>
+<br>
+pause <br>
+<br>
+sub WinClose <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>UnloadImg "img1"</b> <br>
+end sub <br>
+
+</body>
+</html>

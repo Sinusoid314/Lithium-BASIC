@@ -1,0 +1,50 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>UNBINDVAR var1 FROM var2</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Unbinds <b>var1</b> from <b>var2</b>. For this to happen, <b>var1</b> must have
+already been bound to <b>var2</b> using the <a href="BINDVAR.html">BINDVAR</a>
+command. Once <b>var1</b> has been unbound, <b>var2</b>'s value can be changed 
+without the changes affecting <b>var1</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+<br>
+var v1, v2 as string <br>
+<br>
+bindvar v1 to v2 <br>
+v2 = "one" <br>
+<br>
+print v1 <br>
+print v2 <br>
+print <br>
+<br>
+<b>UnBindVar v1 From v2</b> <br>
+v2 = "two" <br>
+<br>
+print v1 <br>
+print v2 <br>
+<br>
+<br>
+<u>Produces:</u> <br>
+<b>
+one <br>
+one <br>
+<br>
+one <br>
+two <br>
+
+</body>
+</html>

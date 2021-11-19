@@ -1,0 +1,73 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>
+SELECT CASE expression <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+CASE expression <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+{code} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+CASE expression <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+{code} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+CASE ELSE <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+{code} <br>
+END SELECT
+</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Executes a certain block of code based on the given expressions. The
+<b>SELECT CASE</b> command takes an <b>expression</b> that will be
+evaluated. Following this can be any number of <b>CASE</b> commands,
+each with its own <b>expression</b> which is compared to the evaluated
+expression. If these two expressions match, the <b>{code}</b> directly
+after the <b>CASE</b> statement is executed. If the evaluated expression
+does not match any of the <b>CASE</b> expressions, the <b>{code}</b>
+after the <b>CASE ELSE</b> line is executed. The <b>END SELECT</b> line
+marks the end of the <b>SELECT CASE</b> block.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+var num as number <br>
+input "Enter a number: ", num <br>
+<b>Select Case num</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Case 5</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+print "Number is 5" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Case 10</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+print "Number is 10" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Case 20</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+print "Number is 20" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Case Else</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+print "Number is not 5, 10, or 20" <br>
+<b>End Select</b>
+
+</body>
+</html>

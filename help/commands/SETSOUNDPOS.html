@@ -1,0 +1,52 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>SETSOUNDPOS soundName, position</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the position to start play from in the sound specified by <b>soundName</b>. The
+<b>position</b> can be any number between 0 and the length of the sound. To get the
+sound's length, use the <a href="..\functions\GETSOUNDLEN.html">GETSOUNDLEN()</a>
+function.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var v as string <br>
+var musicLen as number <br>
+<br>
+showconsol <br>
+<br>
+opensound "mid", DefPath & "\examples\the guess who - no time.mid" <br>
+playsound "mid" <br>
+<br>
+musicLen = getsoundlen("mid") <br>
+<br>
+@skipPrompt <br>
+input "Press enter ('q' to quit): ", v <br>
+if v = "q" then goto @done <br>
+call ResetSound <br>
+goto @skipPrompt <br>
+<br>
+@done <br>
+closesound "mid" <br>
+<br>
+sub ResetSound <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var musicPos as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+musicPos = int(rnd()*musicLen)+1 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>SetSoundPos "mid", musicPos</b> <br>
+end sub <br>
+
+</body>
+</html>
