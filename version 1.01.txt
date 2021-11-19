@@ -1,0 +1,29 @@
+PROJECT NAME: Lithium BASIC
+
+VERSION: 1.01
+
+START DATE: Wednesday, August 6, 2003
+LATEST MODIFICATION DATE: Friday, August 8, 2003
+
+
+CHANGES:
+-----------
+
+Added EnterKey, RightKey, LeftKey, DownKey,
+UpKey, and SpaceKey system variables.
+
+Fixed the StopSound command so that the sound
+starts from the beginning when played again.
+
+Added a command, SetSoundPos, and two functions,
+GetSoundPos() and GetSoundLen()
+
+Fixed a problem with the debugger that was causing
+it to crash when the program was done running.
+
+Changed the runtime engine scheme so that it no
+longer requires a seperate runtime file - programs
+are now made into standalone EXEs.
+
+Fixed a problem with the debugger that was causing
+errors when double-clicking on the Call Stack listbox.

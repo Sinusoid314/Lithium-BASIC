@@ -1,0 +1,25 @@
+PROJECT NAME: Lithium BASIC
+
+VERSION: 1.02
+
+START DATE: Wednesday, August 20, 2003
+LATEST MODIFICATION DATE: Thursday, September 06, 2003
+
+
+CHANGES:
+-----------
+
+Fixed a problem with the FileOpen() and FileSave() functions that
+was causing them to crash the program when running on WinXP and
+Win2000 systems.
+
+Updated the help file and compiled all the loose HTML files
+into one .CHM file.
+
+Added a Replace() function.
+
+Added a String() function.
+
+Added a Word() function.
+
+Added Exit Sub and Exit Function commands.
