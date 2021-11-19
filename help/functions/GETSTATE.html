@@ -1,0 +1,34 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>GETSTATE(name)</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Gets the current state of a <b>radiobutton</b> or <b>checkbox</b> control specified by <b>name</b>. 
+A 1 is returned if the control is checked; otherwise, 0 is returned.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Control Test", normal, 100, 100, 600, 400 <br>
+control "btn1", "win", "Get State", button, 100, 100, 100, 25 <br>
+control "cbox1", "win", "Check Box", checkbox, 100, 200, 100, 15 <br>
+<br>
+event "btn1", "click", IsChecked <br>
+<br>
+pause <br>
+<br>
+sub IsChecked <br>
+    message <b>GetState("cbox1")</b>, "" <br>
+end sub <br>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title></title>
+</head>
+<body>
+
+<h3>FILESAVE(title, filter)</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Opens a file selection dialog box with a "Save" button. The <b>title</b> parameter
+is a string that holds the caption for the window, and <b>filter</b> tells the dialog box what types of files to show. The <b>filter</b> string must contain both a description and
+filter pattern, seperated by a <b>|</b>. For example, when opening a text file with FILESAVE, the filter string "Text files | *.txt" may be used, where "Text files" is the description and "*.txt" is the filter pattern. Multiple file types may be specified by seperating each type with a <b>;</b> in the pattern string, as in "Code files | *.bas;*.bak;*.txt". The return value is a string with the filename of the selected file.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+print "FileSave - " & <b>FileSave("Save...","Code Files (*.txt,*.bas,*.bak) | *.txt;*.bas;*.bak")</b>
+
+</body>
+</html>

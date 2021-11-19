@@ -1,0 +1,30 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>GETITEM(name, index)</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Returns the text of a <b>listbox</b> or <b>combobox</b> control specified by <b>name</b> at the item number <b>index</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Listbox Test", normal, 100, 100, 500, 350 <br>
+control "list1", "win", "", listbox, 100, 80, 150, 200 <br>
+<br>
+AddItem "list1", "One" <br>
+AddItem "list1", "Two" <br>
+AddItem "list1", "Three" <br>
+<br>
+message <b>GetItem("list1", 2)</b>, ""
+
+</body>
+</html>

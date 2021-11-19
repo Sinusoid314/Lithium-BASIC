@@ -1,0 +1,48 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>GETSOUNDLEN(name)</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Returns the length of the sound specified by <b>name</b>.<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var v as string <br>
+var musicLen as number <br>
+<br>
+showconsol <br>
+<br>
+opensound "mid", DefPath & "\examples\the guess who - no time.mid" <br>
+playsound "mid" <br>
+<br>
+musicLen = <b>GetSoundLen("mid")</b> <br>
+<br>
+@skipPrompt <br>
+input "Press enter ('q' to quit): ", v <br>
+if v = "q" then goto @done <br>
+call ResetSound <br>
+goto @skipPrompt <br>
+<br>
+@done <br>
+closesound "mid" <br>
+<br>
+sub ResetSound <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var musicPos as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+musicPos = int(rnd()*musicLen)+1 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+setsoundpos "mid", musicPos <br>
+end sub <br>
+
+</body>
+</html>

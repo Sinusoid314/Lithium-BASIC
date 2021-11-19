@@ -1,0 +1,31 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>ITEMCOUNT(name)</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Returns the number of items in the <b>listbox</b> or <b>combobox</b> specified
+by <b>name</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Listbox Test", normal, 100, 100, 500, 350 <br>
+control "list1", "win", "", listbox, 100, 80, 150, 200 <br>
+<br>
+AddItem "list1", "One" <br>
+AddItem "list1", "Two" <br>
+AddItem "list1", "Three" <br>
+<br>
+message <b>ItemCount("list1")</b>, "" <br>
+
+</body>
+</html>

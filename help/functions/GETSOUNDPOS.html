@@ -1,0 +1,52 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>GETSOUNDPOS(name)</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Returns the current position of the sound specified by <b>name</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var musicLen as number <br>
+var v as string <br>
+<br>
+showconsol <br>
+<br>
+opensound "mid", DefPath & "\examples\the guess who - no time.mid" <br>
+playsound "mid" <br>
+<br>
+timer "midTimer", 200, CheckDone <br>
+<br>
+musicLen = getsoundlen("mid") <br>
+input "Press enter to quit ", v <br>
+closesound "mid" <br>
+<br>
+sub CheckDone <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var musicPos as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+musicPos = <b>GetSoundPos("mid")</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+if musicPos = musicLen then <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+closesound "mid" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+end <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+end if <br>
+end sub <br>
+
+</body>
+</html>

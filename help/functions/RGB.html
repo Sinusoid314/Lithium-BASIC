@@ -1,0 +1,43 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>RGB(red, green, blue)</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Returns the color value that is made up from the <b>red</b>, <b>green</b>, and <b>blue</b>
+values given.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var n as number <br>
+<br>
+showconsol <br>
+<br>
+input "Press enter to change colors...", n <br>
+textcolor RandColor() <br>
+bgcolor RandColor() <br>
+<br>
+function RandColor() as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var r, g, b as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+r = int(rnd()*255)+1 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+g = int(rnd()*255)+1 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+b = int(rnd()*255)+1 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+RandColor = <b>RGB(r, g, b)</b> <br>
+end function
+
+</body>
+</html>
