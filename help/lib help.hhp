@@ -1,0 +1,235 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=lib help.chm
+Contents file=Table of Contents.hhc
+Default topic=index.html
+Display compile progress=No
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=Lithium BASIC Help
+
+
+[FILES]
+commands\@branchLabel.html
+commands\ADDFRAME.html
+commands\ADDITEM.html
+commands\ARRAY.html
+commands\BACKCOLOR.html
+commands\BEEP.html
+commands\BGCOLOR.html
+commands\BINDVAR.html
+commands\BOX.html
+commands\BUTTONIMG.html
+commands\CALL.html
+commands\CASE ELSE.html
+commands\CASE.html
+commands\CIRCLE.html
+commands\CLEAR.html
+commands\CLOSE.html
+commands\CLOSESOUND.html
+commands\CLOSEWINDOW.html
+commands\CLS.html
+commands\CONSOLTITLE.html
+commands\CONTROL.html
+commands\DATA.html
+commands\DELFRAME.html
+commands\DELITEM.html
+commands\DELSPRITE.html
+commands\DIM.html
+commands\DISABLE.html
+commands\DRAWIMG.html
+commands\DRAWSPRITES.html
+commands\DRAWTEXT.html
+commands\ELSE.html
+commands\ELSEIF...THEN.html
+commands\ENABLE.html
+commands\END FUNCTION.html
+commands\END IF.html
+commands\END SELECT.html
+commands\END SUB.html
+commands\END.html
+commands\ERROR.html
+commands\EVENT.html
+commands\FOR...NEXT.html
+commands\FORECOLOR.html
+commands\FUNCTION.html
+commands\GETDIRS.html
+commands\GETFILES.html
+commands\GETIMG.html
+commands\GETMOUSEXY.html
+commands\GETSEL.html
+commands\GETSIZE.html
+commands\GETXY.html
+commands\GOSUB.html
+commands\GOTO.html
+commands\HIDE.html
+commands\HIDECONSOL.html
+commands\IF...THEN.html
+commands\INPUT.html
+commands\KILL.html
+commands\LET.html
+commands\LINE.html
+commands\LINESIZE.html
+commands\LOADIMG.html
+commands\MENU.html
+commands\MESSAGE.html
+commands\MID.html
+commands\MKDIR.html
+commands\NAME.html
+commands\ON.html
+commands\ONERROR.html
+commands\OPEN.html
+commands\OPENSOUND.html
+commands\PAUSE.html
+commands\PAUSESOUND.html
+commands\PLAYSOUND.html
+commands\PRINT.html
+commands\QUESTION.html
+commands\READ.html
+commands\REDIM.html
+commands\REFRESH.html
+commands\REM.html
+commands\RESTORE.html
+commands\RETURN.html
+commands\RMDIR.html
+commands\RUN.html
+commands\RUNCMD.html
+commands\SEEK.html
+commands\SELECT CASE.html
+commands\SETCLIPBOARDTEXT.html
+commands\SETFONT.html
+commands\SETITEM.html
+commands\SETPIXEL.html
+commands\SETSEL.html
+commands\SETSELIDX.html
+commands\SETSELTEXT.html
+commands\SETSIZE.html
+commands\SETSOUNDPOS.html
+commands\SETSTATE.html
+commands\SETTEXT.html
+commands\SETXY.html
+commands\SHOW.html
+commands\SHOWCONSOL.html
+commands\SPRITE.html
+commands\SPRITEBG.html
+commands\SPRITEBGPOS.html
+commands\SPRITEHIDE.html
+commands\SPRITEPAUSE.html
+commands\SPRITEPLAY.html
+commands\SPRITEPOS.html
+commands\SPRITERATE.html
+commands\SPRITEROTATE.html
+commands\SPRITESHOW.html
+commands\SPRITESIZE.html
+commands\STICK.html
+commands\STOPSOUND.html
+commands\STOPTIMER.html
+commands\SUB.html
+commands\SWAP.html
+commands\TEXTCOLOR.html
+commands\TIMER.html
+commands\UNBINDVAR.html
+commands\UNLOADIMG.html
+commands\VAR.html
+commands\WHILE...WEND.html
+commands\WINDOW.html
+functions\ABS.html
+functions\ASC.html
+functions\CHR.html
+functions\COLLIDE.html
+functions\DATE.html
+functions\EOF.html
+functions\FILEOPEN.html
+functions\FILESAVE.html
+functions\GETCLIPBOARDTEXT.html
+functions\GETITEM.html
+functions\GETSELIDX.html
+functions\GETSELTEXT.html
+functions\GETSTATE.html
+functions\GETTEXT.html
+functions\HBMP.html
+functions\HDC.html
+functions\HWND.html
+functions\INPUT.html
+functions\INPUTBOX.html
+functions\INSTR.html
+functions\INT.html
+functions\ITEMCOUNT.html
+functions\LEFT.html
+functions\LEN.html
+functions\LOC.html
+functions\LOF.html
+functions\LOWER.html
+functions\MAX.html
+functions\MID.html
+functions\MIN.html
+functions\NOT.html
+functions\RGB.html
+functions\RIGHT.html
+functions\RND.html
+functions\SPACE.html
+functions\SQR.html
+functions\STR.html
+functions\temp001~.htm
+functions\TIME.html
+functions\TRIM.html
+functions\UPPER.html
+functions\VAL.html
+system variables\Black.html
+system variables\Blue.html
+system variables\Brown.html
+system variables\ButtonFace.html
+system variables\CommandLine.html
+system variables\DefPath.html
+system variables\DownKey.html
+system variables\EnterKey.html
+system variables\ErrorMsg.html
+system variables\False.html
+system variables\Green.html
+system variables\Inkey.html
+system variables\LeftKey.html
+system variables\Orange.html
+system variables\Purple.html
+system variables\Red.html
+system variables\RightKey.html
+system variables\ScreenHeight.html
+system variables\ScreenWidth.html
+system variables\SpaceKey.html
+system variables\True.html
+system variables\UpKey.html
+system variables\White.html
+system variables\Yellow.html
+windows\button.html
+windows\checkbox.html
+windows\combobox.html
+windows\drawbox.html
+windows\groupbox.html
+windows\listbox.html
+windows\picbutton.html
+windows\radiobutton.html
+windows\stattext.html
+windows\textbox.html
+windows\texteditor.html
+windows\window.html
+windows\index.html
+index.html
+functions\GETSOUNDLEN.html
+functions\GETSOUNDPOS.html
+functions\STRING.html
+functions\REPLACE.html
+functions\WORD.html
+commands\EXIT SUB.html
+commands\EXIT FUNCTION.html
+functions\TAN.html
+functions\COS.html
+functions\SIN.html
+functions\OCT.html
+functions\ROUND.html
+functions\SGN.html
+functions\HEX.html
+functions\ATN.html
+functions\LOG.html
+functions\EXP.html
+
+[INFOTYPES]
+

@@ -1,0 +1,898 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="@branchLabel">
+		<param name="Local" value="commands\@branchLabel.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ABS">
+		<param name="Local" value="functions\ABS.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ADDFRAME">
+		<param name="Local" value="commands\ADDFRAME.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ADDITEM">
+		<param name="Local" value="commands\ADDITEM.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ARRAY">
+		<param name="Local" value="commands\ARRAY.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ASC">
+		<param name="Local" value="functions\ASC.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ATN">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\ATN.html">
+		<param name="Local" value="functions\ATN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="BACKCOLOR">
+		<param name="Local" value="commands\BACKCOLOR.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="BEEP">
+		<param name="Local" value="commands\BEEP.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="BGCOLOR">
+		<param name="Local" value="commands\BGCOLOR.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="BINDVAR">
+		<param name="Local" value="commands\BINDVAR.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Black">
+		<param name="Local" value="system variables\Black.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Blue">
+		<param name="Local" value="system variables\Blue.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="BOX">
+		<param name="Local" value="commands\BOX.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Brown">
+		<param name="Local" value="system variables\Brown.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ButtonFace">
+		<param name="Local" value="system variables\ButtonFace.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="BUTTONIMG">
+		<param name="Local" value="commands\BUTTONIMG.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Buttons">
+		<param name="Local" value="windows\button.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CALL">
+		<param name="Local" value="commands\CALL.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CASE">
+		<param name="Local" value="commands\SELECT CASE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CASE ELSE">
+		<param name="Local" value="commands\SELECT CASE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Check Boxes">
+		<param name="Local" value="windows\checkbox.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CHR">
+		<param name="Local" value="functions\CHR.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CIRCLE">
+		<param name="Local" value="commands\CIRCLE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLEAR">
+		<param name="Local" value="commands\CLEAR.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLOSE">
+		<param name="Local" value="commands\CLOSE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLOSESOUND">
+		<param name="Local" value="commands\CLOSESOUND.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLOSEWINDOW">
+		<param name="Local" value="commands\CLOSEWINDOW.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CLS">
+		<param name="Local" value="commands\CLS.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="COLLIDE">
+		<param name="Local" value="functions\COLLIDE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Combo Boxes">
+		<param name="Local" value="windows\combobox.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CommandLine">
+		<param name="Local" value="system variables\CommandLine.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CONSOLTITLE">
+		<param name="Local" value="commands\CONSOLTITLE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CONTROL">
+		<param name="Local" value="commands\CONTROL.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="COS">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\COS.html">
+		<param name="Local" value="functions\COS.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DATA">
+		<param name="Local" value="commands\DATA.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DATE">
+		<param name="Local" value="functions\DATE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DefPath">
+		<param name="Local" value="system variables\DefPath.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DELFRAME">
+		<param name="Local" value="commands\DELFRAME.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DELITEM">
+		<param name="Local" value="commands\DELITEM.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DELSPRITE">
+		<param name="Local" value="commands\DELSPRITE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DIM">
+		<param name="Local" value="commands\DIM.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DISABLE">
+		<param name="Local" value="commands\DISABLE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DownKey">
+		<param name="Local" value="system variables\DownKey.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Draw Boxes">
+		<param name="Local" value="windows\drawbox.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DRAWIMG">
+		<param name="Local" value="commands\DRAWIMG.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DRAWSPRITES">
+		<param name="Local" value="commands\DRAWSPRITES.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DRAWTEXT">
+		<param name="Local" value="commands\DRAWTEXT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ELSE">
+		<param name="Local" value="commands\IF...THEN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ELSEIF...THEN">
+		<param name="Local" value="commands\IF...THEN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ENABLE">
+		<param name="Local" value="commands\ENABLE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="END">
+		<param name="Local" value="commands\END.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="END FUNCTION">
+		<param name="Local" value="commands\FUNCTION.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="END IF">
+		<param name="Local" value="commands\IF...THEN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="END SELECT">
+		<param name="Local" value="commands\SELECT CASE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="END SUB">
+		<param name="Local" value="commands\SUB.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="EnterKey">
+		<param name="Local" value="system variables\EnterKey.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="EOF">
+		<param name="Local" value="functions\EOF.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ERROR">
+		<param name="Local" value="commands\ERROR.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ErrorMsg">
+		<param name="Local" value="system variables\ErrorMsg.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="EVENT">
+		<param name="Local" value="commands\EVENT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="EXIT FUNCTION">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\commands\EXIT FUNCTION.html">
+		<param name="Local" value="commands\EXIT FUNCTION.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="EXIT SUB">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\commands\EXIT SUB.html">
+		<param name="Local" value="commands\EXIT SUB.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="EXP">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\EXP.html">
+		<param name="Local" value="functions\EXP.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="False">
+		<param name="Local" value="system variables\False.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FILEOPEN">
+		<param name="Local" value="functions\FILEOPEN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FILESAVE">
+		<param name="Local" value="functions\FILESAVE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FOR...NEXT">
+		<param name="Local" value="commands\FOR...NEXT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FORECOLOR">
+		<param name="Local" value="commands\FORECOLOR.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FUNCTION">
+		<param name="Local" value="commands\FUNCTION.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETCLIPBOARDTEXT">
+		<param name="Local" value="functions\GETCLIPBOARDTEXT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETDIRS">
+		<param name="Local" value="commands\GETDIRS.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETFILES">
+		<param name="Local" value="commands\GETFILES.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETIMG">
+		<param name="Local" value="commands\GETIMG.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETITEM">
+		<param name="Local" value="functions\GETITEM.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETMOUSEXY">
+		<param name="Local" value="commands\GETMOUSEXY.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETSEL">
+		<param name="Local" value="commands\GETSEL.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETSELIDX">
+		<param name="Local" value="functions\GETSELIDX.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETSELTEXT">
+		<param name="Local" value="functions\GETSELTEXT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETSIZE">
+		<param name="Local" value="commands\GETSIZE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETSOUNDLEN">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\GETSOUNDLEN.html">
+		<param name="Local" value="functions\GETSOUNDLEN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETSOUNDPOS">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\GETSOUNDPOS.html">
+		<param name="Local" value="functions\GETSOUNDPOS.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETSTATE">
+		<param name="Local" value="functions\GETSTATE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETTEXT">
+		<param name="Local" value="functions\GETTEXT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GETXY">
+		<param name="Local" value="commands\GETXY.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GOSUB">
+		<param name="Local" value="commands\GOSUB.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GOTO">
+		<param name="Local" value="commands\GOTO.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Green">
+		<param name="Local" value="system variables\Green.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Group Boxes">
+		<param name="Local" value="windows\groupbox.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="HBMP">
+		<param name="Local" value="functions\HBMP.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="HDC">
+		<param name="Local" value="functions\HDC.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="HEX">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\HEX.html">
+		<param name="Local" value="functions\HEX.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="HIDE">
+		<param name="Local" value="commands\HIDE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="HIDECONSOL">
+		<param name="Local" value="commands\HIDECONSOL.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="HWND">
+		<param name="Local" value="functions\HWND.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IF..THEN">
+		<param name="Local" value="commands\IF...THEN.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Inkey">
+		<param name="Local" value="system variables\Inkey.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="INPUT">
+		<param name="Local" value="commands\INPUT.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="INPUT">
+		<param name="Local" value="functions\INPUT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="INPUTBOX">
+		<param name="Local" value="functions\INPUTBOX.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="INSTR">
+		<param name="Local" value="functions\INSTR.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="INT">
+		<param name="Local" value="functions\INT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction to Windows Programming">
+		<param name="Local" value="windows\index.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ITEMCOUNT">
+		<param name="Local" value="functions\ITEMCOUNT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="KILL">
+		<param name="Local" value="commands\KILL.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LEFT">
+		<param name="Local" value="functions\LEFT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LeftKey">
+		<param name="Local" value="system variables\LeftKey.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LEN">
+		<param name="Local" value="functions\LEN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LET">
+		<param name="Local" value="commands\LET.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LINE">
+		<param name="Local" value="commands\LINE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LINESIZE">
+		<param name="Local" value="commands\LINESIZE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="List Boxes">
+		<param name="Local" value="windows\listbox.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LOADIMG">
+		<param name="Local" value="commands\LOADIMG.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LOC">
+		<param name="Local" value="functions\LOC.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LOF">
+		<param name="Local" value="functions\LOF.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LOG">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\LOG.html">
+		<param name="Local" value="functions\LOG.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LOWER">
+		<param name="Local" value="functions\LOWER.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MAX">
+		<param name="Local" value="functions\MAX.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MENU">
+		<param name="Local" value="commands\MENU.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MESSAGE">
+		<param name="Local" value="commands\MESSAGE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MID">
+		<param name="Local" value="functions\MID.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MID">
+		<param name="Local" value="commands\MID.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MIN">
+		<param name="Local" value="functions\MIN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MKDIR">
+		<param name="Local" value="commands\MKDIR.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NAME">
+		<param name="Local" value="commands\NAME.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NOT">
+		<param name="Local" value="functions\NOT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OCT">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\OCT.html">
+		<param name="Local" value="functions\OCT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ON">
+		<param name="Local" value="commands\ON.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ONERROR">
+		<param name="Local" value="commands\ONERROR.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OPEN">
+		<param name="Local" value="commands\OPEN.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OPENSOUND">
+		<param name="Local" value="commands\OPENSOUND.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Orange">
+		<param name="Local" value="system variables\Orange.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PAUSE">
+		<param name="Local" value="commands\PAUSE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PAUSESOUND">
+		<param name="Local" value="commands\PAUSESOUND.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Picture Buttons">
+		<param name="Local" value="windows\picbutton.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PLAYSOUND">
+		<param name="Local" value="commands\PLAYSOUND.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PRINT">
+		<param name="Local" value="commands\PRINT.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Purple">
+		<param name="Local" value="system variables\Purple.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QUESTION">
+		<param name="Local" value="commands\QUESTION.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Radio Buttons">
+		<param name="Local" value="windows\radiobutton.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="READ">
+		<param name="Local" value="commands\READ.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Red">
+		<param name="Local" value="system variables\Red.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="REDIM">
+		<param name="Local" value="commands\REDIM.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="REFRESH">
+		<param name="Local" value="commands\REFRESH.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="REM">
+		<param name="Local" value="commands\REM.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="REPLACE">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\REPLACE.html">
+		<param name="Local" value="functions\REPLACE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RESTORE">
+		<param name="Local" value="commands\RESTORE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RETURN">
+		<param name="Local" value="commands\RETURN.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RGB">
+		<param name="Local" value="functions\RGB.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RIGHT">
+		<param name="Local" value="functions\RIGHT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RightKey">
+		<param name="Local" value="system variables\RightKey.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RMDIR">
+		<param name="Local" value="commands\RMDIR.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RND">
+		<param name="Local" value="functions\RND.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ROUND">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\ROUND.html">
+		<param name="Local" value="functions\ROUND.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RUN">
+		<param name="Local" value="commands\RUN.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RUNCMD">
+		<param name="Local" value="commands\RUNCMD.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ScreenHeight">
+		<param name="Local" value="system variables\ScreenHeight.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ScrennWidth">
+		<param name="Local" value="system variables\ScreenWidth.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SEEK">
+		<param name="Local" value="commands\SEEK.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SELECT CASE">
+		<param name="Local" value="commands\SELECT CASE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETCLIPBOARDTEXT">
+		<param name="Local" value="commands\SETCLIPBOARDTEXT.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETFONT">
+		<param name="Local" value="commands\SETFONT.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETITEM">
+		<param name="Local" value="commands\SETITEM.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETPIXEL">
+		<param name="Local" value="commands\SETPIXEL.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETSEL">
+		<param name="Local" value="commands\SETSEL.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETSELIDX">
+		<param name="Local" value="commands\SETSELIDX.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETSELTEXT">
+		<param name="Local" value="commands\SETSELTEXT.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETSIZE">
+		<param name="Local" value="commands\SETSIZE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETSOUNDPOS">
+		<param name="Local" value="commands\SETSOUNDPOS.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETSTATE">
+		<param name="Local" value="commands\SETSTATE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETTEXT">
+		<param name="Local" value="commands\SETTEXT.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SETXY">
+		<param name="Local" value="commands\SETXY.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SGN">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\SGN.html">
+		<param name="Local" value="functions\SGN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SHOW">
+		<param name="Local" value="commands\SHOW.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SHOWCONSOL">
+		<param name="Local" value="commands\SHOWCONSOL.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SIN">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\SIN.html">
+		<param name="Local" value="functions\SIN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPACE">
+		<param name="Local" value="functions\SPACE.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SpaceKey">
+		<param name="Local" value="system variables\SpaceKey.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITE">
+		<param name="Local" value="commands\SPRITE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITEBG">
+		<param name="Local" value="commands\SPRITEBG.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITEBGPOS">
+		<param name="Local" value="commands\SPRITEBGPOS.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITEHIDE">
+		<param name="Local" value="commands\SPRITEHIDE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITEPAUSE">
+		<param name="Local" value="commands\SPRITEPAUSE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITEPLAY">
+		<param name="Local" value="commands\SPRITEPLAY.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITEPOS">
+		<param name="Local" value="commands\SPRITEPOS.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITERATE">
+		<param name="Local" value="commands\SPRITERATE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITEROTATE">
+		<param name="Local" value="commands\SPRITEROTATE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITESHOW">
+		<param name="Local" value="commands\SPRITESHOW.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SPRITESIZE">
+		<param name="Local" value="commands\SPRITESIZE.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SQR">
+		<param name="Local" value="functions\SQR.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Static Text">
+		<param name="Local" value="windows\stattext.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="STICK">
+		<param name="Local" value="commands\STICK.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="STOPSOUND">
+		<param name="Local" value="commands\STOPSOUND.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="STOPTIMER">
+		<param name="Local" value="commands\STOPTIMER.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="STR">
+		<param name="Local" value="functions\STR.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="STRING">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\STRING.html">
+		<param name="Local" value="functions\STRING.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SUB">
+		<param name="Local" value="commands\SUB.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SWAP">
+		<param name="Local" value="commands\SWAP.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TAN">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\TAN.html">
+		<param name="Local" value="functions\TAN.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Text Boxes">
+		<param name="Local" value="windows\textbox.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Text Editors">
+		<param name="Local" value="windows\texteditor.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TEXTCOLOR">
+		<param name="Local" value="commands\TEXTCOLOR.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TIME">
+		<param name="Local" value="functions\TIME.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TIMER">
+		<param name="Local" value="commands\TIMER.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TRIM">
+		<param name="Local" value="functions\TRIM.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="True">
+		<param name="Local" value="system variables\True.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UNBINDVAR">
+		<param name="Local" value="commands\UNBINDVAR.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UNLOADIMG">
+		<param name="Local" value="commands\UNLOADIMG.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UpKey">
+		<param name="Local" value="system variables\UpKey.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UPPER">
+		<param name="Local" value="functions\UPPER.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VAL">
+		<param name="Local" value="functions\VAL.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VAR">
+		<param name="Local" value="commands\VAR.HTML">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="WHILE...WEND">
+		<param name="Local" value="commands\WHILE...WEND.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="White">
+		<param name="Local" value="system variables\White.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="WINDOW">
+		<param name="Local" value="commands\WINDOW.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Windows">
+		<param name="Local" value="windows\window.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="WORD">
+		<param name="Name" value="Untitled: c:\My Documents\[Programs]\Lithium BASIC\v1\help\functions\WORD.html">
+		<param name="Local" value="functions\WORD.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Yellow">
+		<param name="Local" value="system variables\Yellow.html">
+		</OBJECT>
+</UL>
+</BODY></HTML>
