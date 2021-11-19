@@ -1,0 +1,15 @@
+Black
+Blue
+Brown
+ButtonFace
+CommandLine
+DefPath
+ErrorMsg
+False
+Green
+Orange
+Purple
+Red
+True
+White
+Yellow
