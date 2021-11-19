@@ -1,0 +1,34 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>LOADIMG imgName, imgFile</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Loads an image file specified by <b>imgFile</b> into the program and assigns
+it a reference name specified by <b>imgName</b>. Once loaded, the image can
+be drawn on any window or control by using the <a href="DRAWIMG.html">
+DRAWIMG</a> command and unloaded using the <a href="UNLOADIMG.html">UNLOADIMG</a> 
+command. Some image files that can be loaded include <b>.bmp, .jpg,</b> and
+<b>.gif</b> files.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+<b>LoadImg "img1", DefPath & "\examples\image1.bmp"</b> <br>
+<br>
+window "win", "Image Test", normal, 100, 100, 400, 300 <br>
+<br>
+drawimg "win", "img1", 100, 100 <br>
+<br>
+pause <br>
+
+</body>
+</html>

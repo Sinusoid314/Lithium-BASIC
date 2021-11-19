@@ -1,0 +1,41 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>GETIMG winName, imgName, x, y, width, top</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Creates an image with the name <b>imgName</b> from a section of the window or
+control specified by <b>winName</b>. The section is specified by <b>x, y, width</b>
+and <b>height</b>. This image can then be drawn using the <a href="DRAWIMG.html">
+DRAWIMG</a> command and unloaded using the <a href="UNLOADIMG.html">UNLOADIMG</a>
+command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var n as number <br>
+loadimg "img1", DefPath & "\examples\image1.bmp" <br>
+<br>
+window "win", "GetImage Test", normal, 100, 100, 400, 300 <br>
+<br>
+drawimg "win", "img1", 10, 10 <br>
+<br>
+<b>GetImg "win", "img2", 20, 20, 20, 20</b> <br>
+<br>
+for n = 20 to 60 step 10<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+drawimg "win", "img2", n, n <br>
+next n <br>
+<br>
+pause <br>
+
+</body>
+</html>

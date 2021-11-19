@@ -1,0 +1,40 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>GETSEL name, startVar, endVar</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Returns the starting and ending positions of the text that is currently selected 
+in the <b>textbox</b> or <b>texteditor</b> specified by <b>name</b>. These number
+values are placed in the variables <b>startVar</b> and <b>endVar</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Get Selection", normal, 100, 100, 500, 350 <br>
+control "edit1", "win", "", texteditor, 100, 70, 200, 200 <br>
+control "btn1", "win", "Get Selection", button, 100, 20, 120, 25 <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var s, e as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>GetSel "edit1", s, e</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+message s & " to " & e, "" <br>
+end sub <br>
+
+</body>
+</html>

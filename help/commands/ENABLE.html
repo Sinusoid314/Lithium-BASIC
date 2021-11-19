@@ -1,0 +1,37 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>ENABLE name</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Enables the window or control specified by <b>name</b> that has been disabled
+by the <a href="DISABLE.html">DISABLE</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Enable Test", normal, 100, 100, 500, 400 <br>
+control "btn1", "win", "Enable", button, 200, 100, 150, 25 <br>
+control "btn2", "win", "Button 2", button, 200, 200, 150, 25 <br>
+<br>
+event "btn1", "click", EnableClick <br>
+<br>
+disable "btn2" <br>
+<br>
+pause <br>
+<br>
+sub EnableClick <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Enable "btn2"</b> <br>
+end sub <br>
+
+</body>
+</html>

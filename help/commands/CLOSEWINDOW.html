@@ -1,0 +1,35 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>CLOSEWINDOW name</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Closes the window specified by <b>name</b>. The window must have been created first using
+then <a href="WINDOW.html">WINDOW</a> command. The program will end if the last window is
+closed and the consol window is no longer visible.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Window Test", normal, 100, 100, 500, 400 <br>
+control "closeBtn", "win", "Close this window", button, 200, 100, 100, 25 <br>
+<br>
+event "closeBtn", "click", BtnClick <br>
+<br>
+pause <br>
+<br>
+sub BtnClick <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>CloseWindow "win"</b> <br>
+end sub <br>
+
+</body>
+</html>

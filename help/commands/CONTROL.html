@@ -1,0 +1,61 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>CONTROL name, parent, text, type, x, y, width, height</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Creates a control labeled <b>name</b> on the window specified by <b>parent</b>.
+A control is created after its parent window has been created using the
+<a href="WINDOW.html">WINDOW</a> command. The control's text is specified by
+<b>text</b>, its position by <b>x</b> and <b>y</b>, and its size by <b>width</b>
+and <b>height</b>. The <b>type</b> parameter is an identifier specifying the
+control's type, and can be any one of the following: <br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+button <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+statictext <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+texteditor <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+textbox <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+listbox <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+combobox <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+drawbox <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+picbutton <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+checkbox <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+radiobutton <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+groupbox <br>
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Control Test", normal, 100, 100, 500, 400 <br>
+<b>Control "btn1", "win", "Button 1", button, 200, 100, 100, 25</b> <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+message "Button 1 was clicked", "" <br>
+end sub <br>
+
+</body>
+</html>

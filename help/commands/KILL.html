@@ -1,0 +1,30 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>KILL path</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Deletes the file specified by <b>path</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+var fileStr, qa as string <br>
+<br>
+fileStr = fileopen("Choose a file to delete...", "All files (*.*) | *.*") <br>
+<br>
+question "Are you sure you want to delete this file?", "Delete", qa <br>
+if qa = "no" then end <br>
+<br>
+<b>Kill fileStr</b> <br>
+
+</body>
+</html>

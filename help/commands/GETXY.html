@@ -1,0 +1,38 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>GETXY name, xVar, yVar</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Retrieves the x and y position of the window or control specified by <b>name</b>
+and places the values into the variables specified by <b>xVar</b> and <b>yVar</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "GetXY Test", normal, 100, 100, 500, 400 <br>
+control "btn1", "win", "GetXY", button, 200, 175, 100, 25 <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var left, top as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>GetXY "win", left, top</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+message "(" & left & ", " & top & ")", "Current Position" <br>
+end sub <br>
+
+</body>
+</html>

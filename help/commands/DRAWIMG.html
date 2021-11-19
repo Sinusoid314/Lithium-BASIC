@@ -1,0 +1,33 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>DRAWIMG winName, imgName, x, y</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Draws an image on the window or control specified by <b>winName</b>. The image specified by
+<b>imgName</b> must have been loaded first using the <a href="LOADIMG.html">LOADIMG</a>
+command. The <b>x</b> and <b>y</b> parameters give the position at which the image will
+be drawn.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "pic1", DefPath & "\examples\image1.bmp" <br>
+<br>
+window "win", "Graphics Test", normal, 100, 100, 600, 400 <br>
+control "draw1", "win", "", drawbox, 100, 50, 300, 300 <br>
+<br>
+<b>DrawImg "draw1", "pic1", 50, 50</b> <br>
+<br>
+pause <br>
+
+</body>
+</html>

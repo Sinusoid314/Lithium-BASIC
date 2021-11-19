@@ -1,0 +1,34 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>INPUT [[prompt,] variable1] [#handle, variable2]</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Takes in a value from either a file or the user. If <b>prompt</b>
+and <b>variable1</b> are specified, the <b>prompt</b> expression is
+evaluated and printed onto the consol window and the consol waits for
+the user to enter something. If <b>prompt</b> is omitted, then the
+consol waits for input without printing a prompt. If <b>#handle</b>
+and <b>variable2</b> are specified instead, a value is read into
+<b>variable2</b> from the file specified by <b>#handle</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+var entry as string <br>
+open "file.txt" for input as #file <br>
+<b>Input #file, entry</b> <br>
+close #file <br>
+print entry <br>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>GETSIZE name, widthVar, heightVar</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Retrieves the width and height of the window or control specified by <b>name</b>
+and places the values into the variables specified by <b>widthVar</b> and
+<b>heightVar</b>.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "GetSize Test", normal, 100, 100, 500, 400 <br>
+control "btn1", "win", "GetSize", button, 200, 175, 100, 25 <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var w, h as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>GetSize "win", w, h</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+message w & " x " & h, "Current Size" <br>
+end sub <br>
+
+</body>
+</html>

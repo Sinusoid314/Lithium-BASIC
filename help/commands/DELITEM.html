@@ -1,0 +1,40 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>DELITEM name, index</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Removes an item from a <b>listbox</b> or <b>combobox</b> control specified 
+by <b>name</b>. The <b>index</b> parameter specifies the index of the item
+to be removed.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "DelItem Test", normal, 100, 100, 500, 400 <br>
+control "btn1", "win", "Delete", button, 200, 250, 100, 25 <br>
+control "list1", "win", "", listbox, 200, 100, 100, 100 <br>
+<br>
+additem "list1", "One" <br>
+additem "list1", "Two" <br>
+additem "list1", "Three" <br>
+<br>
+event "btn1", "click", Btn1Click <br>
+<br>
+pause <br>
+<br>
+sub Btn1Click <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>DelItem "list1", 1</b> <br>
+end sub <br>
+
+</body>
+</html>

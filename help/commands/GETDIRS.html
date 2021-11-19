@@ -1,0 +1,41 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>GETDIRS path, listArray(</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Obtains a list of all the folders within the directory specified by <b>path</b> and
+places the list into a string array specified by <b>listArray(</b>. The array will
+automatically be resized to a single-dimensioned array long enough to hold the folder
+list. The 0 index will hold the number of folders in the list, and the other items in
+the array will contain the actual list. Use the <a href="GETFILES.html">GETFILES</a>
+comand to obtain a list of files in a certain directory.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+<br>
+array dirs(0) as string <br>
+var n as number <br>
+var path as string <br>
+<br>
+input "Enter a directory: ", path <br>
+<br>
+<b>GetDirs path, dirs(</b> <br>
+<br>
+for n = 1 to dirs(0) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+print dirs(n) <br>
+next n <br>
+
+</body>
+</html>

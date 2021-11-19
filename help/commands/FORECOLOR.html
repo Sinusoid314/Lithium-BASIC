@@ -1,0 +1,31 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>FORECOLOR name, colorVal</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Sets the color to use for the outline of shapes drawn on a window or control.
+<b>name</b> specifies the window or control, and <b>colorVal</b> specifies
+the number representation of the color. There are system variables available
+that contain the number values for the basic colors.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Graphics Test", normal, 100, 100, 600, 400 <br>
+control "draw1", "win", "", drawbox, 100, 50, 300, 300 <br>
+<b>Forecolor "draw1", Blue</b> <br>
+box "draw1", 10, 10, 100, 100 <br>
+drawtext "draw1", "Blue text", 200, 200 <br>
+pause <br>
+
+</body>
+</html>

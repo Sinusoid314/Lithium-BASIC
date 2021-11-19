@@ -1,0 +1,43 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>GETMOUSEXY xVar, yVar</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Retrieves the position of the mouse cursor and places it in the <b>xVar</b> and
+<b>yVar</b> variables. The x and y position returned is relative to the window or control
+that the cursor is currently over.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Color Blocks", normal, 100, 100, 500, 400 <br>
+control "draw", "win", "", drawbox, 10, 10, 470, 350 <br>
+<br>
+event "draw", "leftbuttondown", BtnDown <br>
+<br>
+pause <br>
+<br>
+sub BtnDown <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+var x, y as number <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+backcolor "draw", Red <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+forecolor "draw", White <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>GetMouseXY x, y</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+box "draw", x-5, y-5, 10, 10 <br>
+end sub <br>
+
+</body>
+</html>

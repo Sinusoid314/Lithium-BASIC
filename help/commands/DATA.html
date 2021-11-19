@@ -1,0 +1,45 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>DATA expression, expression, ...</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Allows data to be easily inserted into a program. There can be any number of
+<b>expression</b>s, and each one can be any type (String or Number). The data
+can be read into variables durring runtime with the <a href="READ.html">READ
+</a> command. The data in each <b>DATA</b> statement is local to the sub or
+function in which it is defined and, unlike variables, code within subs and
+functions cannot read data from global DATA statements. Variables and arrays
+should not be used in any data <b>expression</b>s, since all DATA lines are cut
+out and evaluated before the program starts.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+<b>Data 4</b> <br>
+<b>Data "Andrew", "Dan", "Vince", "Trish"</b> <br>
+<br>
+showconsol <br>
+<br>
+var nameNum, n as number <br>
+var nameStr as string <br>
+<br>
+read nameNum <br>
+<br>
+for n = 1 to nameNum <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+read nameStr <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+print nameStr <br>
+next n <br>
+
+</body>
+</html>

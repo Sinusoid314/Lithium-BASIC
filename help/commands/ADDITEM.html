@@ -1,0 +1,34 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>ADDITEM name, item [,itemIdx]</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Adds a new item, specified by the string <b>item</b>, to the <b>listbox</b> or
+<b>combobox</b> control specified by <b>name</b>. If <b>itemIdx</b> is specified, then
+the new item will be placed at that position in the list, instead of at the end of it.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Listbox Test", normal, 100, 100, 500, 350 <br>
+control "list1", "win", "", listbox, 100, 80, 150, 200 <br>
+<br>
+<b>
+AddItem "list1", "One" <br>
+AddItem "list1", "Two" <br>
+AddItem "list1", "Three" <br>
+</b>
+<br>
+message GetItem("list1", 2), ""
+
+</body>
+</html>

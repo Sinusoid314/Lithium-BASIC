@@ -1,0 +1,54 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>HIDE name</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Hides the window or control specified by <b>name</b>. The <a href="SHOW.html">
+SHOW</a> command can be used to display it again. <i>Note of caution:</i> A Lithium
+BASIC program will continue to run as long as there are windows open in the program.
+Make sure to close even hidden windows when your program is supposed to terminate, or
+else it will continue to run in the background of the user's system.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win2", "Test Window", normal, 100, 100, 400, 300 <br>
+<br>
+window "win1", "Show/Hide Window", normal, 10, 10, 300, 80<br>
+control "showBtn", "win1", "Show", button, 10, 10, 100, 25 <br>
+control "hideBtn", "win1", "Hide", button, 130, 10, 100, 25 <br>
+<br>
+event "win1", "close", EndProg <br>
+event "showBtn", "click", ShowWin <br>
+event "hideBtn", "click", HideWin <br>
+<br>
+pause <br>
+<br>
+sub ShowWin <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+show "win2" <br>
+end sub <br>
+<br>
+sub HideWin <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Hide "win2"</b> <br>
+end sub <br>
+<br>
+sub EndProg <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+closewindow "win1" <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+closewindow "win2" <br>
+end sub <br>
+
+</body>
+</html>

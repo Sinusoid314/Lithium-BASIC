@@ -1,0 +1,32 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>BUTTONIMG btnName, picName</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Changes the image displayed on the <b>picbutton</b> control specified by <b>btnName</b>.
+The image specified by <b>picName</b> must have been loaded first by using the
+<a href="LOADIMG.html">LOADIMG</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+loadimg "get", DefPath & "\examples\get.bmp" <br>
+<br>
+window "win", "Control Test", normal, 100, 100, 600, 400 <br>
+control "pbtn1", "win", "", picbutton, 100, 100, 72, 25 <br>
+<br>
+<b>ButtonImg "pbtn1", "get"</b> <br>
+<br>
+pause <br>
+
+</body>
+</html>

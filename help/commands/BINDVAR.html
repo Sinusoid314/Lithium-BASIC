@@ -1,0 +1,64 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>BINDVAR var1 TO var2</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Binds <b>var1</b> to <b>var2</b>. Once this is done, the value of <b>var1</b> will change
+whenever the value of <b>var2</b> changes. A variable can have multiple variables bound
+to it, making all of the bound variables change when its value changes. This cannot work
+the other way around (when <b>var1</b>'s value is changed, it has no affect on 
+<b>var2</b>.) A variable can be unbound from another variable by using the 
+<a href="UNBINDVAR.html">UNBINDVAR</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+showconsol <br>
+<br>
+var v1, v2, v3 as string <br>
+<br>
+v1 = "Object" <br>
+v2 = "Collection" <br>
+v3 = "MetaClass" <br>
+<br>
+print "Before:" <br>
+print "    " & v1 <br>
+print "    " & v2 <br>
+print "    " & v3 <br>
+print <br>
+<br>
+<b>BindVar v2 To v1</b> <br>
+<b>BindVar v3 To v1</b> <br>
+<br>
+v1 = "nil" <br>
+<br>
+print "After:" <br>
+print "    " & v1 <br>
+print "    " & v2 <br>
+print "    " & v3 <br>
+<br>
+<br>
+<u>Produces:</u><br>
+<b>
+Before: <br>
+Object <br>
+Collection <br>
+MetaClass <br>
+<br>
+After: <br>
+nil <br>
+nil <br>
+nil <br>
+</b>
+
+</body>
+</html>

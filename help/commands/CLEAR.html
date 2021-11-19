@@ -1,0 +1,39 @@
+<html>
+<!-- Creation date: 4/20/2003 -->
+<head>
+<title></title>
+</head>
+<body>
+
+<h3>CLEAR name</h3>
+<br>
+<b><u>Description:</u></b>
+<br>
+<br>
+Clears the window or control specified by <b>name</b> of all the graphics that have
+been drawn on it, whether or not they have been stuck to the window using the
+<a href="STICK.html">STICK</a> command.
+<br>
+<br>
+<br>
+<b><u>Usage:</u></b>
+<br>
+<br>
+window "win", "Graphics Test", normal, 100, 100, 600, 400 <br>
+control "draw1", "win", "", drawbox, 100, 50, 300, 300 <br>
+control "btn2", "win", "Clear", button, 450, 150, 80, 25 <br>
+<br>
+event "btn2", "click", ClearWin <br>
+<br>
+drawtext "draw1", "Beam me up", 50, 100 <br>
+stick "draw1" <br>
+<br>
+pause <br>
+<br>
+sub ClearWin <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Clear "draw1"</b> <br>
+end sub <br>
+
+</body>
+</html>
